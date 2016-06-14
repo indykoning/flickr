@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+.container{
+    width: 20%;
+    float: left;
+    height: 240px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.fotos{
+    width: 233px;
+    height: 180px;
+    overflow: hidden;
+}
+.fotos img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+h4{
+    background-color: black;
+    color: white;
+    margin: 1px;
+    width: 230px;
+	padding-bottom: 50px;
+}
+.title{
+	height: 30px;
+	overflow-y: auto;
+}
+p#source{
+    clear: both;
+    text-align: center;
+	
+}
+
+p#source a{
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+
+}
+
+.inhoud{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.inhoud img{
+    border-radius: 2px;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+}
